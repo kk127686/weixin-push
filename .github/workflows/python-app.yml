@@ -4,10 +4,6 @@
 name: '微信定时推送任务'
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
   schedule:
     - cron: '15 2 * * *'
 
